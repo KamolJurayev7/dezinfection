@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+
+body {
+    background-color: #000300;
+}
+
+.sizes {
+    max-width: 1380px;
+}
+
+.trade-winds-regular {
+    font-family: "Trade Winds", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.neon_btn{
+    transition: 0.3s;
+}
+.neon_btn:hover {
+    transition: 0.35s;
+    background-color: #00df9a;
+    color: #000300;
+    box-shadow: 0 0 5px #00df9a,
+        0 0 25px #00df9a,
+        0 0 200px #00df9a,
+        0 0 50px #00df9a;
+        
+}
